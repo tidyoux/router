@@ -1,0 +1,11 @@
+
+*
+!.gitignore
+!Makefile
+!make
+!make/*
+!bin
+!bin/static
+!bin/static/index.html
+!bin/static/fa.min.js
+!bin/static/favicon.ico

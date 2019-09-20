@@ -1,0 +1,15 @@
+# This is a sample.
+# *** DO NOT EDIT ME ***
+
+url: "url"
+workerID: 1
+workerKey: "worker-key"
+tasks:
+  - name: "test"
+    workDir: "work-dir"
+    steps:
+      - name: "ls"
+        cmd: "cd ..;ls -a" # cmd can be multi cmd if params = false.
+      - name: "echo"
+        cmd: "echo" # cmd must be an executable file when params = true.
+        params: True
